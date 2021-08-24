@@ -1,0 +1,18 @@
+.productList {
+  display: flex;
+  height: 15vh;
+  flex-direction: column;
+  border: 1px solid #000;
+  padding: 1em;
+}
+
+.product {
+  width: 30em;
+  display: flex;
+}
+
+.product > div {
+  flex: 1;
+  text-align: left;
+}
+

@@ -1,0 +1,16 @@
+.App {
+  display: flex;
+  text-align: center;
+}
+
+.App-body {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20vh;
+  width: 45vw;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(7px + 1vmin);
+}
+
+

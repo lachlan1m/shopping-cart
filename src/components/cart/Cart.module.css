@@ -1,0 +1,40 @@
+.cart {
+  margin-top: 3vh;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000000;
+  padding: 1em;
+}
+
+.cartItems {
+  min-height: 15vh;
+}
+
+.cartItem {
+  display: flex;
+  width: 70%;
+  float: right;
+  margin-right: 2em;
+}
+
+.name {
+  flex: 1;
+  text-align: left;
+}
+
+.price {
+  flex: 0.7;
+}
+
+.buttons {
+  flex: 1;
+}
+
+.price {
+  flex: 0.3;
+}
+
+.total {
+  text-align: right;
+  margin-right: 2em;
+}
