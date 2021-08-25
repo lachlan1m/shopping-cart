@@ -29,7 +29,7 @@ function App() {
     name: "Hacksaw",
     price: 18.45
     }
-    ]
+  ]
     
   return (
     <div className="App">

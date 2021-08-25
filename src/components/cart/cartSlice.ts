@@ -11,11 +11,6 @@ export interface CartItem {
   quantity: number;
 }
 
-export interface Item {
-  name: string;
-
-}
-
 const initialState: CartState = {
   items: [],
 }
